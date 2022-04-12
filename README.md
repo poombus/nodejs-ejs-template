@@ -1,2 +1,3 @@
-# calculus-tool
-Calculators for Calc problems.
+#nodejs-ejs-template
+
+a simple site structure running on nodejs
