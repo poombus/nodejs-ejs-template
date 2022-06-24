@@ -33,11 +33,11 @@ startApp();
 async function startApp() {
     console.log("Starting app..."); //prints time of app starting
 
-    setupSocket();
-
     app.locals["appVersion"] = appVersion;
 
     listener = app.listen(port, () => {
         console.log('Node Server now running on port ' + port);
     });;
+
+    setupSocket();
 } 
